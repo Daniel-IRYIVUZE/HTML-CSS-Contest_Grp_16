@@ -1,9 +1,12 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
+    
+
   }
   *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
   }
   
   header {
@@ -199,4 +202,48 @@ body {
     text-align: center;
     padding: 10px;
   }
+  /* nav bar */
+  .sidebar{
+    list-style: none;
+    width: 200px;
+    background:rgba(255, 255, 255, 0.605);
+    position: fixed;
+    z-index: 920;
+    top: 0;
+    left: 0;
+    display: none;
+    color: white;
+    background: #fff;
+    min-width: 20px;
+
+
+
+  }
+  .sidebar li{
+    margin-bottom: 12px;
+    width: 100%;
+  }
   
+  .sidebar a{
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    color:black;
+    width: 100%;
+  }
+  .sidebar a:hover {
+    color: white;
+    background: rgba(0, 0, 0, 0.571);
+    
+  }
+  
+  
+  
+  h1{
+    background:rgb(102, 199, 126);
+    padding: 10px;
+    color: white;
+    margin-bottom: 10px;
+
+  }
+
