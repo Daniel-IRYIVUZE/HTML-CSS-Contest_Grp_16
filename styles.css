@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    
+    /* min-width: 100vh; */
     
 
   }
@@ -18,7 +18,6 @@ body {
     position: sticky;
     top: 0%;
     background-color: #1a3a17;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -34,12 +33,7 @@ body {
     position: relative;
     width: 100%;
     height: 100vh;
-    z-index: -1;
-    
-    
-    
-   
-    
+    z-index: -1;    
   }
   header .title {
     position: sticky;
@@ -54,12 +48,27 @@ body {
   header #aid {
     position: sticky;
     font-weight: bold;
-    color: #c99423;
+    color: #fce6b7e5;
     text-shadow: #ccc;
     font-size: 30px;
     margin: 0%;
     align-items: center;
     text-decoration: none;
+  }
+  h6{
+    text-align: center;
+    color: rgb(102, 199, 126);
+    font-size: 80px;
+    text-shadow: #0a1b0b;
+    font-weight: 300px;
+  }
+
+  h2{
+    text-align: center;
+    color: rgb(102, 199, 126);
+    font-size: 35px;
+    text-shadow: #0a1b0b;
+    font-weight: 300px;
   }
   nav ul {
     position: sticky;
@@ -86,11 +95,11 @@ body {
   }
   nav li:hover {
     position: sticky;
-    color:  #c29023;
+    color:  #fce6b7e5;
     background: rgba(70, 62, 62, 0.699);
     padding: 12px;
     transform: rotate(10deg);
-    border-bottom: 1px solid #cc9622;
+    border-bottom: 1px solid #fce6b7e5;
   }
   
   section {
@@ -101,25 +110,28 @@ body {
    #home{
     position: absolute;
     background-color: rgba(0, 0, 0, 0.8);
-     width: 100%; 
+    width: 100%;
     height: 100%;
     text-align: center;
     color: rgb(102, 199, 126);
     font-size: 40px;
     text-shadow: #ccc;
      }
+      #home h5 {
+      font-size: 40px; 
+      text-align: center;
+      color:#fce6b7e5;
+     }
      #home p {
       font-size: 20px; 
-      text-align: center;
+      text-align: left;
+      justify-self: center;
+      text-decoration-skip: line-through;
       color: #ccc;
-      
+      width: 80%;
+      text-decoration: wavy;
+      padding: 10px;
      }
-     #home h6 {
-      font-size: 25px; 
-      text-align: center;
-      color:#c29023;
-     }
-    
 .image{
   width:50%;
   height: 50%;
@@ -132,34 +144,141 @@ body {
   object-fit: cover;
   cursor: pointer;
 }
+
+#mentors{
+  background-color: #fce6b7e5;
+}
 .mentor-category {
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
- 
+  /* margin: 30px; */
+  /* padding: 40px; */
   text-align: center;
   
-}  
+} 
+
+button {
+  background-color: #0a1b0b;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #cc8f0d;
+}
   .mentor {
     width: 320px;
     height: 350px;
     background-color: #f0f0f0; 
     border-radius: 10px;
-    
+    /* justify-items: space-between; */
     align-items: center;
     padding: 20px;
-  
+    /* margin: 40px; */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1); 
     text-align: center; 
   }
+  .team-category {
+    display: flex;
+    gap: 30px;
+    word-spacing: 2;
+    flex-wrap: wrap;
+    /* margin: 30px; */
+    /* padding: 40px; */
+    text-align: center;
+  }
+  .team{
+    width: 350px;
+    height: 450px;
+    align-items: center;
+    margin: 10px;
+    background-color: #f0f0f0; 
+    border-radius: 10px;
+    /* justify-items: space-between; */
+    align-items: center;
+    padding: 25px;
+    /* margin: 40px; */
+    text-align: center; 
+  }
+  .team2{
+    width: 350px;
+    height: 450px;
+    align-items: center;
+    margin: 20px;
+    background-color: #f0f0f0; 
+    border-radius: 10px;
+    position: relative;
+    /* justify-items: space-between; */
+    align-items: center;
+    padding: 15px;
+    /* margin: 40px; */
+    text-align: center; 
+  }
+  .name
+  {
+    font-size: 22px;
+ color: #0c67dd;
+  }
+  .tito
+  {
+    font-size: 17px;
+ color: #3d5275;
+  }
+  .desc
+  {
+
+    font-size: 14px;
+ color: #0c67dd;
+  }
+  .email
+  {
+    font-size: 19px;
+ color: #3d5275;
+  }
+  .profiles{
+    width:50%;
+    height: 50%;
+    border-radius: 20%;
+    object-fit: cover;
+  }
+  .profiles:hover {
+    transform: scale(0.9);
+    border-radius: 100%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  h3 {
+    color: #1a3a17;
+    font-size: 30px;
+  }
+  #about {
+    background-color: #e4e2e2;
+    text-align:center;
+    border: #0a1b0b;
+    color: #0a1b0b;
+  }
+  
+  #aboutp {
+    font-size: 22px;
+    color: #0a1b0b;
+  }
+
   #apply {
-    margin: 30px;
-    padding: 20px;
+    background-color: #e4e2e2;
+    width: 100%;
   }
   
   #apply form {
     max-width: 400px;
     margin: auto;
+    padding: 30px;
+    background-color: #2a94798c;
+    border-radius: 40px;
+    box-shadow: #0a1b0b;
   }
   
   #apply h2 {
@@ -186,7 +305,7 @@ body {
     box-sizing: border-box;
   }
   
-  #apply input[type="submit"] {
+   input[type="submit"] {
     background-color: #0a1b0b;
     color: white;
     padding: 10px 20px;
@@ -195,16 +314,27 @@ body {
     cursor: pointer;
   }
   
-  #apply input[type="submit"]:hover {
+  input[type="submit"]:hover {
     background-color: #cc8f0d;
   }
+  .big-btn input[type="submit"] {
+    background-color: #0a1b0b;
+    color: white;
+    font-size: 20px;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
   
+  .big-btn input[type="submit"]:hover {
+    background-color: #20b993;
+    color: #193b05;
+  }
   #apply textarea {
     height: 100px;
   }
   
-  
-
   footer {
     background-color: #333;
     color: #fff;
@@ -216,15 +346,14 @@ body {
     list-style: none;
     width: 200px;
     background:rgba(255, 255, 255, 0.605);
-   
+    /* position: fixed; */
+    /* z-index: 920; */
+    top: 0;
     left: 0;
     display: none;
     color: white;
     background: #fff;
     min-width: 20px;
-
-
-
   }
   .sidebar li{
     margin-bottom: 12px;
@@ -243,9 +372,7 @@ body {
     background: rgba(0, 0, 0, 0.571);
     
   }
-  
-  
-  
+   
   h1{
     background:rgb(102, 199, 126);
     padding: 10px;
@@ -253,13 +380,3 @@ body {
     margin-bottom: 10px;
 
   }
-  .text-section{
-    text-align: center;
-    margin: 40px;
-  }
-  .text-section h2{
-    
-    margin-bottom: 19px;
-    
-  }
-
