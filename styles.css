@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    /* min-width: 100vh; */
+    
     
 
   }
@@ -101,7 +101,7 @@ body {
    #home{
     position: absolute;
     background-color: rgba(0, 0, 0, 0.8);
-    width: 100%;
+     width: 100%; 
     height: 100%;
     text-align: center;
     color: rgb(102, 199, 126);
@@ -110,23 +110,16 @@ body {
      }
      #home p {
       font-size: 20px; 
-      text-align: left;
+      text-align: center;
       color: #ccc;
-      width: 70%;
-      padding: 10px;
+      
      }
      #home h6 {
       font-size: 25px; 
       text-align: center;
       color:#c29023;
      }
-     #home p {
-      font-size: 20px; 
-      text-align: left;
-      color: #ccc;
-      width: 70%;
-      padding: 10px;
-     }
+    
 .image{
   width:50%;
   height: 50%;
@@ -143,8 +136,7 @@ body {
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
-  /* margin: 30px; */
-  /* padding: 40px; */
+ 
   text-align: center;
   
 }  
@@ -153,10 +145,10 @@ body {
     height: 350px;
     background-color: #f0f0f0; 
     border-radius: 10px;
-    /* justify-items: space-between; */
+    
     align-items: center;
     padding: 20px;
-    /* margin: 40px; */
+  
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1); 
     text-align: center; 
   }
@@ -224,9 +216,7 @@ body {
     list-style: none;
     width: 200px;
     background:rgba(255, 255, 255, 0.605);
-    /* position: fixed; */
-    /* z-index: 920; */
-    top: 0;
+   
     left: 0;
     display: none;
     color: white;
@@ -262,5 +252,14 @@ body {
     color: white;
     margin-bottom: 10px;
 
+  }
+  .text-section{
+    text-align: center;
+    margin: 40px;
+  }
+  .text-section h2{
+    
+    margin-bottom: 19px;
+    
   }
 
