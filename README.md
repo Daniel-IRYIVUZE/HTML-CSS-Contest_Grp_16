@@ -36,7 +36,7 @@ A group of students in the university initiated an organization wherein they can
 . Create a form that will allow individuals to apply as a mentor.
 
 #Home page Interface
-![Interface](https://github.com/Daniel-IRYIVUZE/HTML-CSS-Contest_Grp_16/assets/139581457/797ccba0-6089-4a61-a8b9-66a0607816ce)
+![Interface](https://github.com/Daniel-IRYIVUZE/HTML-CSS-Contest_Grp_16/assets/139581457/3ec8f38f-a627-4d70-a250-74be92009981)
 
 Made by Group 16
 
